@@ -1,0 +1,29 @@
+@import "../_variables.scss";
+
+.message.sent{
+  padding: 0 0 0 10px;
+  margin-left: 60%;
+
+
+
+}
+.message.sent p{
+  background-color: #36D0DB;
+  color: white;
+  padding: 10px;
+  max-width: 400px;
+  border-radius: 5px;
+}
+.message.sent span{
+  margin-left: 55%;
+}
+.message.received {
+  padding: 0 0 0 10px;
+  margin-right: 60%;
+}
+.message.received p{
+  background-color: #BBBAB9;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 400px;
+}

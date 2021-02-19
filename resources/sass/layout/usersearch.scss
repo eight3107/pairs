@@ -1,0 +1,95 @@
+@import "../_variables.scss";
+
+.user{
+  display: flex;
+  flex-wrap :wrap;
+  margin: 0 auto;
+}
+.user-list{
+  position: relative;
+  width: 220px;
+  padding: 10px 5px;
+  list-style: none;
+}
+.user-img{
+  width: 180px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+.user-img:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+.user-info{
+  padding: 0 30px;
+}
+.user-info a{
+  display: block;
+  text-align: center;
+  width: 45%;
+  padding: 5px 5px;
+  margin: auto;
+  font-size: 18px;
+}
+.user-prof{
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+.user-button{
+  text-align: center;
+}
+.btn-l {
+  color: #fff;
+  background: #ee9ca7;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 5px 15px;
+}
+.btn-a {
+  color: black;
+  background: glay;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px 70px 5px 65px;
+  font-size: 12px;
+  padding: 9px 15px;
+}
+.btn-search {
+  border:0;
+  padding:10px;
+  font-size:0.8em;
+  background-color: black;
+  color:white;
+  border:solid 1px black;
+  margin:0 0 20px;
+  width:100px;
+  border-radius: 3px;
+}
+.btn-search:hover {
+  cursor: pointer;
+}
+.btn-age {
+  width :70px;
+}
+.age-search {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .user-list {
+    width: 100%;
+  }
+  .user-img{
+    width: 216px;
+    height: 240px;
+  }
+  .btn-l {
+    margin: 5px 75px 5px 70px;
+  }
+  span {
+  display: block;
+  }
+}
