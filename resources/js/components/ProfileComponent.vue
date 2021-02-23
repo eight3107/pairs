@@ -4,7 +4,7 @@
    <!-- <img @click="openModal" :src="prof.pic"> -->
     <button @click="openModal(user)">詳細</button>
   </div>
-  <modal :prof="postProf" v-show="showContent" @close="closeModal" />
+  <modal :prof="profs" v-show="showContent" @close="closeModal" />
 
   <div>
     <div>
@@ -24,7 +24,7 @@
     data () {
       return {
         showContent: false,
-        postProf: "",
+        //postProf: "",
         profs: []
       }
     },

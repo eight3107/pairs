@@ -6,7 +6,7 @@
       <p>年齢:{{ user.age }}</p>
       <p>県:{{ user.prefecture.name }}</p>
       <p>自己紹介:{{ user.sentence }}</p>-->
-      
+      <p>名前:{{ prof.name }}</p>
       <button @click="$emit('close')">閉じる</button>
     </div>
   </div>
